@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+  <div id="cesiumOverlay">
+    <div>
+      <input type="file" name="kml_upload" id="kml_upload" class="hide" />
+      <label for="kml_upload" class="cesium-button">Загрузить KML</label>
+    </div>
+    <div>
+      <button class="cesium-button" id="zoom_to_drone"> Приблизиться к дрону </button>
+      <button class="cesium-button" id="track_drone"> Следить за дроном </button>
+    </div>
+    <div>
+      <button class="cesium-button" id="show_waypoints"> Показать точки маршрута </button>
+      <button class="cesium-button" id="hide_waypoints"> Скрыть точки маршрута </button>
+      <button class="cesium-button" id="show_drone_route"> Показать линию маршрута </button>
+      <button class="cesium-button" id="hide_drone_route"> Скрыть линию маршрута </button>
+    </div>
+  </div>
+<div id="cesiumContainer"></div>
+</body>
+</html>

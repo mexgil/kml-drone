@@ -1,0 +1,29 @@
+html, body, #cesiumContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#cesiumOverlay {
+    padding:1rem;
+    position:absolute;
+    z-index:2;
+}
+
+
+
+.hide {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.cesium-widget-credits{
+    display:none !important;
+}
